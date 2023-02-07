@@ -1,0 +1,1067 @@
+:root {
+    --blue: #46B1DE;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1B1D1F;
+}
+
+.container {
+    max-width: 1180px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    position: absolute;
+    height: 91px;
+    z-index: 10;
+}
+
+.block_logo {
+    margin-right: 77.78px;
+}
+
+.block_menu {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    padding-right: 53px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+a {
+    text-decoration: none;
+    color: #1B1D1F;
+}
+
+.block_phone {
+    display: flex;
+    padding-right: 23px;
+}
+
+.alignment {
+    align-self: center;
+}
+
+.first_screen{
+    background-image: url(img/lady.png), url(img/background.jpg);
+    height: 663px;
+    background-repeat: no-repeat;
+    background-size: 572px, cover;
+    background-position: right 110px bottom, 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.description {
+    padding-top: 173px;
+    padding-left: 22px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.text_color {
+    color: var(--blue);
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 45px;
+    color: #1B1D1F;
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 45px;
+    margin-bottom: 54px;
+    display: flex;
+    gap: 120px;
+}
+
+.button_call {
+    border: 1px solid var(--blue);
+    color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    padding: 16.5px 67px;
+    background: linear-gradient(97.59deg, #46B1DE 9.8%, #0591CC 95.1%);
+    box-shadow: 0px 2px 10px #46B1DE;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.button_services {
+    border: 1px solid #DDE0DC;
+    color: var(--blue);
+    background: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    padding: 16.5px 45.5px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 140%;
+    text-align: center;
+    box-shadow: 0px 2px 10px #DDE0DC;
+}
+
+.flex_cards {
+    display: flex;
+    gap: 65px;
+    margin-left:calc(210px - 110px);
+}
+
+.card {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #D8E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 280px;
+    height: 120px;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--blue);
+    padding: 2px 10px;
+}
+
+.card_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.card_treatment {
+    padding: 35px 34px 21px 7px;
+}
+
+.card_apply {
+    padding: 46px 26px 42px 3px;
+}
+
+.card_warranty {
+    padding: 36px 7px 36px 7px;
+}
+
+.main {
+    margin-top: 148px;
+}
+
+.why {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 130%;
+    margin: 0;
+    margin-left: 354px;
+    max-width: 715px;
+}
+
+.title_blue {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.experience {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 394px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    max-width: 612px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    height: 396px;
+    max-width: 1020px;
+    margin-left: 190px;
+    margin-bottom: 87px;
+    margin-top: 50px;
+    background: #A1C7D4;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+
+.box {
+    display: grid;
+    height: 364px;
+    width: 300px;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.subbox {
+    height: 176px;
+    width: 300px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 80px 193px;
+    grid-template-rows: 50% 50%;
+    justify-items: start;
+    align-items: start;
+    margin-bottom: 12px;
+    
+}
+
+.box_text {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 280px;
+    height: 57px;
+    padding: 0px 4px 46px 16px;
+}
+
+.box_number {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 56px;
+    padding-top: 3px;
+}
+
+.box_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    width: 218px;
+    height: 38px;
+    padding: 10px 5px 25px 0px;
+}
+
+.external_border {
+    max-width: 845px;
+    height: 265px;
+    margin-left: 265px;
+    margin-bottom: 90px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.internal_border {
+    max-width: 821px;
+    height: 247px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    margin: 10px 9px 8px 15px;
+}
+
+.appointment {
+    max-width: 763px;
+    height: 42px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    margin: 29px 33px 7px 25px;
+}
+
+.contact_text {
+    max-width: 801px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    margin: 0px 14px 45px 6px;
+}
+
+.contact_block {
+    max-width: 782px;
+    height: 57px;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 21px;
+}    
+
+.button_contact {
+    width: 233px;
+    height: 57px;
+    background: rgba(217, 217, 217, 0.71);
+    border-radius: 8px;
+    display: flex;
+}
+
+.name {
+    margin: 0px 67px 45px 0px;
+    padding: 16px 90px 14px 10px;
+}
+
+.contact_number {
+    margin: 0px 67px 45px 0px;
+    padding: 14px 41px 16px 10px;
+}
+
+.phone {
+    padding-right: 10px;
+}
+
+.sign {
+    margin: 0px 0px 45px 0px;
+    padding: 15px 49px;
+    width: 180px;
+    background: var(--blue);
+}
+
+.sign_up {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.user {
+    padding-right: 10px;
+}
+
+
+.input_name {
+    border: hidden;
+    background: none;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 140%;
+    color: rgba(27, 29, 31, 0.51);
+}
+
+.border {
+    border-left: 1px solid #000000;
+    padding-right: 8px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+}
+
+
+.picture {
+    max-width: 979px;
+    height: 129px;
+    display: flex;
+    margin-left: 198px;
+    margin-bottom: 91px;
+}
+
+.woman {
+    margin-right: 69px;
+}
+
+.kid {
+    margin-right: 70px;
+}
+
+.footer {
+    height: 400px;
+    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0;  
+    padding: 0;
+    margin-left: 7px;
+    margin-bottom: 27px;
+    margin-right: 162px;
+}
+
+.li_color {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #0F2D4A;
+}
+
+.lang {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 4px;
+    margin-right: 162px;
+
+color: #000000;
+}
+
+.footer_text {
+    display: flex;
+}
+
+.work_hours {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #0F2D4A;
+    margin-right: 419px;
+    margin-top: 37px;
+}
+
+.work_hours_heading {
+    display: block;
+    font-weight: 600;
+    padding-bottom: 7px;
+    line-height: 23px;
+}
+
+.info {
+    display: flex;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.contacts {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 316px;
+}
+
+.contacts_heading {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.contacts_block {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    gap: 6px;
+}
+
+.messengers {
+    display: flex;
+    padding-bottom: 15px;
+    gap: 22px;
+
+}
+
+
+.link_color {
+    color: white;
+}
+
+.copyright {
+    padding-left: 150px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tooth {
+    max-width: 425.22px;
+    height: 91px;
+    margin: 60px 377.78px 0px 4px;
+}
+
+@media(max-width: 992px){
+    body {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .first_screen{
+        width: 992px;
+        height: 510px;
+        background-size: 400px, cover;
+        background-position: right 110px bottom 5px, 100%;
+        position: relative;
+        filter: none;
+    }
+    .block_logo img{
+        width: 396px;
+        height: 71px;
+    }
+    .block_logo{
+        margin-right: 15px;
+        width: 328px;
+        height: 71px;
+    }
+    .block_menu {
+        gap: 50px;
+        padding-right: 20px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .description {
+        padding-top: 140px;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 25px; 
+    }
+    .paragraph {
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .buttons {
+        margin-top: 35px;
+        margin-bottom: 48px;
+        gap: 90px;
+    }
+    .button_call {
+        width: 140px;
+        height: 50px;
+        padding: 12px 44.5px;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .button_services {
+        width: 140px;
+        height: 50px;
+        padding: 12px 20px;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .flex_cards {
+        gap: 40px;
+    }
+    .card {
+        width: 210px;
+        height: 80px;
+    }
+    .number {
+        font-weight: 200;
+        font-size: 45px;
+        padding: 0px 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .card_text {
+        font-weight: 300;
+        font-size: 11px;
+    }
+    
+    .card_treatment {
+        padding: 18px 19px 11px 4px;
+    }
+    
+    .card_apply {
+        padding: 26px 16px 22px 4px;
+    }
+    
+    .card_warranty {
+        padding: 18px 5px 26px 4px;
+    }
+    .main {
+        margin-top: 90px;
+    }
+    .why {
+        font-weight: 300;
+        font-size: 24px;
+        margin-left: 254px;
+    }
+    .experience {
+        margin-top: 2px;
+        margin-left: 205px;
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .benefits {
+        height: 350px;
+        max-width: 850px;
+        margin-left: 71px;
+        margin-bottom: 57px;
+        margin-top: 30px;
+        grid-template-columns: repeat(3, 230px);
+    }
+    .box {
+        height: 320px;
+        width: 230px;
+        margin-top: 10px;
+        margin-left: 2px;
+    
+    }
+    .subbox {
+        height: 160px;
+        width: 240px;
+        margin-bottom: 8px;
+        grid-template-columns: 50px 170px;
+        
+    }
+    .box_text {
+        font-weight: 300;
+        font-size: 12px;
+        height: 37px;
+        width: 220px;
+        padding: 0px 4px 46px 16px;
+    }
+    .box_number {
+        font-weight: 300;
+        font-size: 25px;
+        width: 50px;
+        height: 56px;
+        padding-top: 3px;
+    }
+    .box_title {
+        font-weight: 500;
+        font-size: 15px;
+        width: 170px;
+        height: 28px;
+        padding: 10px 0px 5px 0px;
+    }
+    .external_border {
+        max-width: 700px;
+        height: 245px;
+        margin-left: 146px;
+        margin-bottom: 60px;
+    }
+    .internal_border {
+        max-width: 685px;
+        height: 230px;
+        margin: 7.5px 7.5px;
+    }
+    .appointment {
+        max-width: 650px;
+        font-weight: 400;
+        font-size: 24px;
+        margin: 20px 29px 6px 20px;
+    }
+    .contact_text {
+        max-width: 701px;
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0px 14px 35px 10px;
+    }
+    .contact_block {
+        max-width: 670px;
+        height: 50px;
+        margin-left: 18px;
+        margin-right: 21px;
+    }     
+    .button_contact {
+        width: 190px;
+        height: 50px;
+    }
+    .sign {
+        padding: 18px 30px;
+        width: 160px;
+    }
+    .sign_up {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .input_name {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .picture {
+        margin-left: 101px;
+        margin-bottom: 60px;
+    }
+    .woman {
+        margin-right: 50px;
+    }
+    .kid {
+        margin-right: 50px;
+    }
+    .image img {
+        width: 230px;
+        height: 105px;
+    }
+    .footer {
+        max-width: 992px;
+        height: 300px;
+    }
+    .footer_text {
+        margin-left: 20px;
+    }
+    .menu {
+        margin-bottom: 23px;
+        margin-right: 130px;
+    }
+    .li_color {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .lang {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .work_hours {
+        font-weight: 300;
+        font-size: 16px;
+        margin-right: 419px;
+        margin-top: 30px;
+    }
+    .work_hours_heading {
+        font-weight: 500;
+    }
+    .info {
+        height: 100px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .contacts {
+        margin-top: 25px;
+    }
+    .contacts_heading {
+        font-weight: 500;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .contacts_block {
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    .messengers {
+        padding-bottom: 8px;
+    }
+    .copyright {
+        padding-left: 85px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .tooth {
+        max-width: 425.22px;
+        height: 91px;
+        margin: 25px 290px 0px 4px;
+    }
+    .tooth img {
+        width: 356px;
+        height: 70px;
+    }
+}
+
+@media(max-width: 480px){
+    header .container {
+        margin: 0;
+    }
+    .first_screen {
+        background-image: url(img/lady.png), url(img/background.jpg);
+        width: 320px;
+        height: 568px;
+        background-size: 208px, cover;
+        background-position: right 64px bottom 6px, 100%;
+        filter: none;
+    }
+    .header_info {
+        margin-top: 30px;
+        height: 39.16px;
+    }
+    .block_logo img{
+        width: 183px;
+        height: 39.16px;
+    }
+    .block_logo{
+        margin-right: 3px;
+        width: 183px;
+        height: 39.16px;
+    }
+    .block_menu {
+        display: none;
+    }
+    .header_lang {
+        display: none;
+    }
+    .block_phone {
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .phone {
+        width: 15px;
+        height: 15px;
+        padding-right: 3px;
+    }
+    .tel {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .flex_cards {
+        display: none;
+    }
+    .description {
+        padding-top: 116px;
+        padding-left: 13.21px;
+    }
+    .title {
+        font-size: 22px;
+        text-align: center;
+        margin: 0;
+    }
+    .paragraph {
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .buttons {
+        margin-top: 10px;
+        margin-left: 15.203px;
+        gap: 100px;
+        justify-content: flex-start;
+    }
+    .button_call {
+        width: 100px;
+        height: 35px;
+        padding: 0;
+        padding-top: 7.5px;
+        font-size: 14px;
+    }
+    .button_services {
+        width: 100px;
+        height: 35px;
+        padding: 0;
+        padding-top: 7.5px;
+        font-size: 14px;
+    }
+    .main {
+        margin-top: 30px;
+    }
+    .why {
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .experience {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+    }
+    .benefits {
+        grid-template-columns: none;
+        height: 787px;
+        width:290px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        padding-top: 8px;
+    }
+    .box {
+        height: 260px;
+        width: 270px;
+        margin-top: 0px;
+    }
+    .subbox {
+        height: 120px;
+        width: 270px;
+        margin-bottom: 5px;   
+    }
+    .box_text {
+        font-size: 13px;
+        width: 280px;
+        height: 57px;
+        padding: 0px 4px 16px 16px;
+    }
+    .box_number {
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .box_title {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .external_border {
+        width: 290px;
+        height: 120px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    .internal_border {
+        width: 280px;
+        height: 110px;
+        margin: 5px 5px;
+    }
+    .appointment {
+        height: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px 20px;
+    }
+    .contact_text {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        line-height: 12px;
+        margin: 0px 11px;
+    }
+    .contact_block {
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 270px;
+    }    
+    .button_contact {
+        height: 37px;
+        margin: 0;
+        padding: 0;
+    }
+    .name {
+        width: 85px;
+        margin-right: 10px;
+        padding-top: 8.5px;
+    }
+    .contact_number {
+        width: 95px;
+        margin-right: 10px;
+        padding-top: 8.5px;
+    }
+    .phone {
+        padding-right: 20px;
+    }
+    .sign {
+        padding: 12.5px 8px;
+        width: 70px;
+    }
+    .sign_up {
+        font-size: 12px;
+    }
+    .user {
+        padding-right: 2px;
+    }
+    .input_name {
+        font-size: 10px;
+    }
+    .border {
+        padding-right: 2px;
+        height: 20px;
+    }
+    .user img {
+        width: 20px;
+        height: 20px;
+    }
+    .phone img {
+        width: 20px;
+        height: 20px;
+    }
+    .picture {
+        width: 230px;
+        height: 325px;
+        display: grid;
+        margin-left: 45px;
+        margin-bottom: 30px;
+    }
+    .footer {
+        height: 568px;
+        width: 320px;
+    }
+    .nav {
+        width: 54.14px;
+        margin-right: 113.86px;
+    }
+    .menu {
+        height: 52.04px;
+        margin: 0;
+        display: grid;
+    }
+    .li_color {
+        font-size: 14px;
+    }
+    .lang {
+        font-size: 14px;
+        margin: 20.43px 0px 44px 0px;
+        width: 166px;
+    }
+    .footer_text {
+        margin-left: 3.234px;
+    }
+    .work_hours {
+        font-size: 14.2648px;
+        margin-right: 0px;
+        margin-top: 25px;
+    } 
+    .work_hours_heading {
+        font-size: 14.2648px;
+        padding-bottom: 4.31px;
+    }
+    .info {
+        display: grid;
+        height: 91px;
+        margin: 30px 8.72px 21.4px 3.234px;
+    }
+    .contacts {
+        margin-top: 130px;
+    }
+    .contacts_heading {
+        font-size: 21px;
+        padding-bottom: 26.48px;
+    }
+    .contacts_block {
+        font-size: 17.1613px;
+        padding-bottom: 15px;
+        gap: 13.04px;
+    }
+    .messengers {
+        display: none;
+    }
+    .copyright {
+        padding-left: 101px;
+        font-size: 11.1548px;
+    }
+    .tooth img {
+        width: 303.28px;
+        height: 64.91px;
+    }
+} 
